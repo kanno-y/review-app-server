@@ -16,6 +16,9 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.18.1",
+    "express-jwt": "^7.7.5",
+    "jwks-rsa": "^2.1.4",
+    "node-fetch": "^3.2.8",
     "pg": "^8.7.3",
     "pg-hstore": "^2.3.4",
     "sequelize": "^6.21.3"
