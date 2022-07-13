@@ -1,8 +1,10 @@
 import express from "express";
 import * as data from "./sample-data.js";
+import cors from "cors";
+
 // インスタンス作成
 const app = express();
-
+app.use(cors());
 // ラーメン店のリストを取得する
 app.get("/restaurants", async (req, res) => {
   const limit = +req.query.limit || 5;
